@@ -6,7 +6,7 @@ CityWeaver is an interactive desktop app for creating game-ready fantasy city ma
 It focuses on organic, realistic road networks and hand-crafted layout logic rather than procedural randomness — perfect for world-builders, tabletop RPG designers, and game developers who want believable medieval-style cities.
 CityWeaver builds natural road layouts, river crossings, and walled settlements that feel like they’ve evolved over centuries — not drawn by a computer grid.
 Every map feels distinct, realistic, and ready for export to your favorite game engine or world-building workflow.
-![Επίδειξη λειτουργίας 1](organic network.gif)
+![DEMO1](organic%20network.gif)
 ________________________________________
 ✨ Features
 •	🛣️ Organic Road Network — Generates natural, winding roads inspired by @pboechat’s excellent roadgen foundation.
@@ -16,7 +16,7 @@ ________________________________________
 •	🎛️ Intuitive UI Controls — Easily tweak city features, density, or styles through the sidebar panels.
 •	🖼️ Vector-Style Rendering — Crisp visuals at any zoom level with smooth panning and zooming.
 •	📤 Export to PNG & PDF — Save your final city layout with preserved borders and clickable facilities in the PDF.
-![Επίδειξη λειτουργίας 2](generate city walls.gif)
+![DEMO2](generate%20city%20walls.gif)
 ________________________________________
 🧩 Installation
 CityWeaver is written in Python and uses Pygame for rendering.
@@ -30,13 +30,13 @@ python -m venv venv
 venv\Scripts\activate
 4. Install Dependencies
 pip install -r requirements.txt
-![Επίδειξη λειτουργίας 3](generate rivers and ports.gif)
+![DEMO3](generate%20rivers%20and%20ports.gif)
 ________________________________________
 🚀 Running CityWeaver
 After setup, launch the app with:
 python city_weaver.py
 This opens the main CityWeaver window and generates your first map.
-![Επίδειξη λειτουργίας 4](generate buildings and facilities and export pdf with labes.gif)
+![DEMO4](generate%20buildings%20and%20facilities%20and%20export%20pdf%20with%20labes.gif)
 ________________________________________
 🕹️ Controls
 Action	Description
